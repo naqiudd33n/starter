@@ -1,0 +1,23 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@nestjs/common": "^10.3.8",
+        "@nestjs/core": "^10.3.8",
+        "@nestjs/platform-express": "^10.3.8",
+        "@nestjs/swagger": "^7.3.1",
+        "reflect-metadata": "^0.2.2",
+        "typescript": "^5.4.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.12"
+    }
+}
