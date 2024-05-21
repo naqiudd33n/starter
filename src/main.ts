@@ -3,14 +3,15 @@ import { NestFactory } from '@nestjs/core';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import { AppModule } from 'app/app.module';
+import { existsSync } from 'fs-extra';
 
 async function bootstrapApplication() {
     // Check if .env file exists
-    // if (!existsSync('.env')) {
-    //     const error = 'The .env file is missing. Please make sure it exists.';
-    //     Logger.error(error, 'MainApplication');
-    //     throw new Error(error);
-    // }
+    if (!existsSync('.env')) {
+        const error = 'The .env file is missing. Please make sure it exists.';
+        Logger.error(error, 'MainApplication');
+        throw new Error(error);
+    }
 
     const app = await NestFactory.create<NestExpressApplication>(AppModule);
     const SERVER_PORT = process.env.SERVER_PORT || 3000;

@@ -1,0 +1,4 @@
+[2024-05-21 09:54:07.978] - DEBUG - Message: Logging the data - Additional Data:  {"optionalParams":{"message":"Hello, World!","host":"localhost:3000","note":"Hello"}}
+[2024-05-21 09:59:42.109] - DEBUG - Message: Logging the data - Additional Data:  {"optionalParams":{"message":"Hello, World!","host":"127.0.0.1:3000"}}
+[2024-05-21 10:02:06.407] - DEBUG - Message: Logging the data - Additional Data:  {"optionalParams":{"message":"Hello, World!","host":"127.0.0.1:3000","note":"XXX"}}
+[2024-05-21 14:41:33.379] - DEBUG - Message: Logging the data - Additional Data:  {"optionalParams":{"message":"Hello, World!","host":"localhost:3000","note":"Faiqq"}}

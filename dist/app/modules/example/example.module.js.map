@@ -1,0 +1,1 @@
+{"version":3,"file":"example.module.js","sourceRoot":"","sources":["../../../../src/app/modules/example/example.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,oEAAqE;AACrE,6DAA2E;AAMpE,IAAM,aAAa,GAAnB,MAAM,aAAa;CAAG,CAAA;AAAhB,sCAAa;wBAAb,aAAa;IAJzB,IAAA,eAAM,EAAC;QACJ,OAAO,EAAE,CAAC,6BAAgB,CAAC;QAC3B,WAAW,EAAE,CAAC,sCAAiB,CAAC;KACnC,CAAC;GACW,aAAa,CAAG"}
